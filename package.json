@@ -1,0 +1,41 @@
+{
+  "name": "cert-shop",
+  "version": "1.0.0",
+  "description": "test work ",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elena-v-volkova/cert-shop.git"
+  },
+  "author": "@vlpro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elena-v-volkova/cert-shop/issues"
+  },
+  "homepage": "https://github.com/elena-v-volkova/cert-shop#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "@babel/preset-react": "^7.25.9",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  }
+}

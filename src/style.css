@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgb(51, 51, 51);
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 39px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    background-color: #2291FF;
+    outline: 1px solid #2291FF;
+    color: #ffffff;
+    transition: background .35s linear, color .35s linear;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #2291FF;
+}
+
+ul {
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
